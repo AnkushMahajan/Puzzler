@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/yahoo/pure-release/v0.6.0/pure-min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/yahoo/pure-release/v0.6.0/grids-responsive-min.css">
+    <link type="text/css" rel="stylesheet" href="../Puzzler/styles/puzzle.css">
+
+    <meta charset="UTF-8">
+    <title>Image Puzzler</title>
+</head>
+<body>
+<div ng-controller="puzzleController">
+    <h3 style="background-color: cornflowerblue" ng-show="over">Congratulations!, you solved the puzzle in total of {{moves}} moves</h3>
+    <puzzle-scramble moves="moves" over="over"></puzzle-scramble>
+</div>
+<script src="../Puzzler/node_modules/requirejs/require.js" data-main="main.js"></script>
+</body>
+</html>

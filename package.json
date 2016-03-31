@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "angular": "1.5.0",
+    "jquery": "latest",
+    "jquery-ui": "latest",
+    "requirejs": "latest",
+    "requirejs-domready": "latest",
+    "bootstrap": "3.3.6",
+    "karma": "latest",
+    "karma-jasmine": "latest",
+    "angular-mocks": "1.5.0",
+    "ngstorage": "latest"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^0.2.3"
+  }
+}
