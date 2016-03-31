@@ -23,7 +23,8 @@ require.config({
             exports: 'jqueryUI'
         },
         jquerySnapPuzzle:{
-            exports: 'jquerySnapPuzzle'
+            exports: 'jquerySnapPuzzle',
+            deps: ['jquery']
         }
     },
 
